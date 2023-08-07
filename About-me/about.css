@@ -1,0 +1,43 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+    font-weight: normal;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+img {
+    margin: 0 auto;
+}
+
+.nav-container {
+    text-align: center;
+}
+
+.nav-button {
+    display: inline-block;
+    margin: 10px 20px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: white;
+    background-color: transparent; /* Set background to transparent */
+    border: 2px solid #084c61; /* Add a solid border to create flat square buttons */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth hover effect */
+    text-decoration: none; /* Remove underline from links */
+    padding: 5px 15px; /* Adjust padding to create clickable area */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+.nav-button:hover {
+    background-color: #56a3a6;
+    border-color: #56a3a6; /* Change the border color on hover to match the background color */
+}
